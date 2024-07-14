@@ -1,0 +1,11 @@
+/* Responsive design for small device */
+@media screen and (max-width: 576px) {
+  .navbar,
+  .menu {
+    flex-direction: column;
+  }
+}
+
+/* Responsive design for medium device */
+@media screen and (min-width: 576.02) and (max-width: 992px) {
+}
