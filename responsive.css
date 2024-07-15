@@ -1,11 +1,54 @@
-/* Responsive design for small device */
+/* Responsive design for x-small device */
 @media screen and (max-width: 576px) {
+  main > section {
+    margin-top: 80px;
+  }
   .navbar,
-  .menu {
+  .menu,
+  .teams {
     flex-direction: column;
+  }
+
+  .teams {
+    gap: 10px;
+  }
+  .team-image {
+    gap: 12px;
+  }
+  .team-feature {
+    max-width: 100vw;
+  }
+}
+
+/* Responsive design for small device */
+@media screen and (min-width: 576.02px) and (max-width: 768px) {
+  main > section {
+    margin-top: 80px;
+  }
+  .navbar,
+  .menu,
+  .teams {
+    flex-direction: column;
+  }
+
+  .teams {
+    gap: 10px;
+  }
+  .team-image {
+    gap: 12px;
   }
 }
 
 /* Responsive design for medium device */
-@media screen and (min-width: 576.02) and (max-width: 992px) {
+@media screen and (min-width: 768.02px) and (max-width: 992px) {
+  .nav-item {
+    margin-left: 25px;
+  }
+
+  .teams {
+    flex-direction: column;
+  }
+  .team-image {
+    gap: 12px;
+  }
 }
