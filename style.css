@@ -171,3 +171,38 @@ header {
   margin: 0;
   font-size: 1.5rem;
 }
+
+/* facts section styles */
+.facts-content {
+  max-width: 540px;
+  margin-bottom: 100px;
+}
+.facts-cards {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  justify-content: space-around;
+}
+.single-facts-card {
+  width: 240px;
+  height: 240px;
+  border: 2px solid #ff900e;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.single-facts-card p {
+  margin: 0;
+}
+.facts-number {
+  font-size: 2.8rem;
+  font-weight: 600;
+}
+.facts-text {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+/* sponsors section styles */

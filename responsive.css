@@ -27,6 +27,16 @@
   .feature-btn {
     margin: 0;
   }
+
+  .facts-cards {
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+    gap: 20px;
+  }
+  .single-facts-card {
+    width: 200px;
+    height: 200px;
+  }
 }
 
 /* Responsive design for small device */
@@ -56,6 +66,12 @@
   .feature-btn {
     margin: 0;
   }
+
+  .facts-cards {
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+    gap: 20px;
+  }
 }
 
 /* Responsive design for medium device */
@@ -79,5 +95,11 @@
   }
   .feature-btn {
     margin: 0 auto;
+  }
+
+  .facts-cards {
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+    gap: 20px;
   }
 }
