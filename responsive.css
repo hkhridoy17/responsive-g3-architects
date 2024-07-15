@@ -5,7 +5,8 @@
   }
   .navbar,
   .menu,
-  .teams {
+  .teams,
+  .features {
     flex-direction: column;
   }
 
@@ -18,6 +19,14 @@
   .team-feature {
     max-width: 100vw;
   }
+
+  .feature-content,
+  .feature-image {
+    width: 100%;
+  }
+  .feature-btn {
+    margin: 0;
+  }
 }
 
 /* Responsive design for small device */
@@ -27,7 +36,8 @@
   }
   .navbar,
   .menu,
-  .teams {
+  .teams,
+  .features {
     flex-direction: column;
   }
 
@@ -37,6 +47,15 @@
   .team-image {
     gap: 12px;
   }
+
+  .feature-content,
+  .feature-image {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .feature-btn {
+    margin: 0;
+  }
 }
 
 /* Responsive design for medium device */
@@ -45,10 +64,20 @@
     margin-left: 25px;
   }
 
-  .teams {
+  .teams,
+  .features {
     flex-direction: column;
   }
   .team-image {
     gap: 12px;
+  }
+
+  .feature-content,
+  .feature-image {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .feature-btn {
+    margin: 0 auto;
   }
 }
