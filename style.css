@@ -206,3 +206,18 @@ header {
 }
 
 /* sponsors section styles */
+.sponsor-content {
+  max-width: 542px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.sponsor-cards {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  justify-content: space-between;
+  align-items: center;
+}
+.sponsor-cards img {
+  filter: grayscale(100%);
+}
