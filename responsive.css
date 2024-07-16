@@ -51,6 +51,11 @@
     justify-content: center;
     gap: 50px;
   }
+
+  footer {
+    padding: 20px;
+    margin-top: 100px;
+  }
 }
 
 /* Responsive design for small device */
@@ -92,6 +97,11 @@
     grid-template-columns: repeat(2, auto);
     justify-content: center;
     gap: 50px;
+  }
+
+  footer {
+    padding: 30px;
+    margin-top: 100px;
   }
 }
 
